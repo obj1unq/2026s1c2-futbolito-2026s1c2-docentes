@@ -1,0 +1,10 @@
+import objetos.*
+import game.*
+describe "test de futbolito" {
+  test "test de inicio" {
+    const inicio = game.at(0,5)
+    assert.notEquals(inicio, lionel.position())
+    lionel.inicio()
+    assert.equals(inicio, lionel.position())
+  }
+}
