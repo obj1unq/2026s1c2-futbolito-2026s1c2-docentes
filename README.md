@@ -10,9 +10,7 @@ Se epera que los estudiantes ya sean capaces de trabajar con git de manera indiv
 
 ## Dinámica
 
-Cada integrante del grupo debe resolver sólo uno de los requerimientos en un 
-*feature branch*, y luego realizar un *pull request (PR)* sobre *main*. Esperar a que 
-cada estudiante termine su requerimiento antes de comenzar a *mergear* los *pull requests*
+Cada integrante del grupo debe resolver sólo uno de los requerimientos en un *feature branch*, y luego realizar un *pull request (PR)* sobre *main*. Esperar a que cada estudiante termine su requerimiento antes de comenzar a *mergear* los *pull requests*
 
 ## Requerimientos (pizarrón)
 
