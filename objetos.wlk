@@ -16,6 +16,11 @@ object lionel {
 	method avanzar() {
 		position = game.at((game.width() - 1).min(position.x() + 1), position.y()) 
 	}
+
+	method inicio() {
+		position = game.at(0, position.y())
+	}
+	
 	method buscarla() {
 	   position = pelota.position()
 	}
