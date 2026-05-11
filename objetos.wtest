@@ -8,3 +8,12 @@ describe "test de futbolito" {
     assert.equals(inicio, lionel.position())
   }
 }
+
+describe "Tests para el juego futbolito" {
+  test "Lionel busca la pelota" {
+    assert.notEquals(pelota.position(),lionel.position())
+    lionel.buscarla()
+    assert.equals(pelota.position(),lionel.position())
+  }
+}
+

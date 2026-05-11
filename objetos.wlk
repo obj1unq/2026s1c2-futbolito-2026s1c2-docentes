@@ -21,6 +21,9 @@ object lionel {
 		position = game.at(0, position.y())
 	}
 	
+	method buscarla() {
+	   position = pelota.position()
+	}
 }
 
 
